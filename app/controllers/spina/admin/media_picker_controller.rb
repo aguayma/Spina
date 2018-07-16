@@ -21,8 +21,6 @@ module Spina
         else 
           @image = Image.find(params[:image_id])
         end
-
-        render 'select.js'
       end
 
     end
